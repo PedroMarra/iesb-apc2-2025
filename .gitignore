@@ -1,0 +1,20 @@
+# Executáveis compilados
+*.out
+*.o
+*.exe
+main
+main-debug
+
+# Cache do editor (ccls / Replit)
+.ccls-cache/
+.breakpoints
+
+# Sistema
+.DS_Store
+
+# Executáveis sem extensão (gcc arquivo.c -o arquivo):
+# ignora arquivos sem extensão, mantendo pastas, fontes e o Makefile
+*
+!*/
+!*.*
+!Makefile
